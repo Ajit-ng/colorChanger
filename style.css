@@ -1,34 +1,42 @@
 body {
-    font-style:italic;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #79c76b;
-  }
-  
-  #colorBox {
-    width: 30vw;
-    height: 50vh;
-    background-color: blue;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size:30px;
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-  }
-  
-  .button{
-    padding: 10px 25px;
-    margin: 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  .button:hover{
-    color: rgb(239, 153, 153);
-    background-color: rgba(red, green, blue, alpha);
-  }
+  font-style:italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #bac5b8;
+}
+
+#colorBox {
+  width: 30vw;
+  height: 50vh;
+  background-color: blue;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:30px;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button{
+  padding: 10px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover{
+  color: rgb(239, 153, 153);
+  background-color: rgba(red, green, blue, alpha);
+}
