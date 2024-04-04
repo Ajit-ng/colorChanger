@@ -1,2 +1,3 @@
 # colorChanger
-<img width="960" alt="image" src="https://github.com/Ajit-ng/colorChanger/assets/107497826/bc079221-46af-4625-8fbc-c481fbf07ab1">
+<img width="960" alt="image" src="https://github.com/Ajit-ng/colorChanger/assets/107497826/992ff08c-912a-45f5-a205-718315b56048">
+
